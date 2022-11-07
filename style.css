@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+}
+
+
+header{
+    
+    width: 100vv;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto-header{
+    width: 190px;
+    height: 32px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color:darkblue;
+    margin-left: 100px;
+}
+
+.boton-header{
+    width: 100px;
+    height: 40px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 100px;
+    
+}
+
+.portada{
+    background-color:  #F1F1F1;
+    display: flex;
+    align-items: center;
+}
+
+.presentacion{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 60px;
+color: #1E0E62;
+margin-left: 180px;
+}
+
+.introduccion{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: rgba(21, 20, 57, 0.4);
+mix-blend-mode: normal;
+margin-left: 80px;
+
+}
+
+.foto-portada{
+    width: 570px;
+    height: 451px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.habilidades{
+    background-color:  #F1F1F1;
+    display: grid;
+    place-content: center;
+    }
+
+.texto-habilidades{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 52px;
+text-align: center;
+letter-spacing: -0.4px;
+color: #1E0E62;
+margin-bottom: 10px;
+}
+
+.descripcion-habilidades{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+color: rgba(21, 20, 57, 0.4);
+mix-blend-mode: normal;
+width: 700px;
+margin-left: 240px;
+
+
+
+}
+.lenguajes-aprendidos{
+    display: flex;
+    
+}
+
+.titulo-habilidad{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #1E0E62;
+}
+
+.explicacion-habilidad{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: rgba(21, 20, 57, 0.4);
+mix-blend-mode: normal;
+width: 400px;
+height: 100px;
+}
+
+.descripcion-experiencias{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+color: rgba(21, 20, 57, 0.4);
+mix-blend-mode: normal;
+width: 700px;
+margin-left: 300px;
+}
+
+.boton-experiencia{
+    padding: 15px 30px;
+    height: 50px;
+    background: #25DAC5;
+    border-radius: 100px;
+    border: #F1F1F1;
+    color: #F1F1F1;
+    text-decoration: none;
+}
+.contenedor-boton{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fotos-experiencia{
+    width: 270px;
+    height: 140px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+.titulo-experiencia{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+color: #1E0E62;
+margin-left: 50px;
+
+}
+.contenedor-experiencia{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
+.descripcion-experiencia{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: rgba(21, 20, 57, 0.4);
+mix-blend-mode: normal;
+padding: 0px;
+margin-left: 50px;
+}
+.contenedor-footer{
+    background: #F1F1F1;
+    margin-top: 150px;
+}
+.texto-footer{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 70px;
+text-align: center;
+letter-spacing: -1px;
+color: #1E0E62;
+}
+.mail-footer{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 70px;
+text-align: center;
+letter-spacing: -1px;
+color: #482BE7;
+}
+.contenedor-logos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    
+}
